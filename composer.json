@@ -1,8 +1,14 @@
 {
     "name": "gsebastiao3/response-codes",
-    "description": "Biblioteca de códigos de resposta multilíngue (code, icon, title, message).",
+    "description": "Biblioteca PHP para códigos de resposta multilíngue (code, icon, title, message).",
     "type": "library",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Gerson Sebastião",
+            "email": "gsebastiao3@hotmail.com"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "ResponseCodes\\": "src/"
@@ -10,5 +16,15 @@
     },
     "require": {
         "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.x-dev"
+        }
     }
 }
