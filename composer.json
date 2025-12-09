@@ -1,0 +1,14 @@
+{
+    "name": "gsebastiao3/response-codes",
+    "description": "Biblioteca de códigos de resposta multilíngue (code, icon, title, message).",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ResponseCodes\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.0"
+    }
+}
